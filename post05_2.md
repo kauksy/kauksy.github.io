@@ -33,7 +33,7 @@
 
   - i 라는 4바이트 크기의 정수형 변수에 숫자 4를 저장
 
-    <img src="C:\Users\SOO\AppData\Roaming\Typora\typora-user-images\image-20191031173720101.png" alt="image-20191031173720101" style="zoom:80%;" />
+    <img src="https://user-images.githubusercontent.com/14012780/67932671-aa153d00-fc07-11e9-845e-89169da2071f.png" alt="image-20191031173720101" style="zoom:80%;" />
 
 - 참조형은 클래스다. 기본형 타입을 제외한 모든 타입이다.
 
