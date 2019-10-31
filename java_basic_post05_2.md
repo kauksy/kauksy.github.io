@@ -1,6 +1,4 @@
-> 제가 현재 참고하고 있는 내용은 모두 [프로그래머스]( https://programmers.co.kr/learn ) 사이트의 자바입문/중급 강의를 듣고 직접 정리하는 내용입니다. 
-
-
+> 제가 현재 참고하고 있는 이론적 내용과 소스코드는 모두 [프로그래머스]( https://programmers.co.kr/learn ) 사이트의 자바입문/중급 강의를 듣고 정리하는 내용입니다. 
 
 ## 클래스와 객체
 
@@ -14,11 +12,11 @@
 
   
 
-#### 자바의 변수타입
+#### 1. 자바의 변수타입
 
 - 자바는 변수를 사용하려면, 변수의 타입을 지정해 주어야 한다.
 
-| 1. 기본형 (Primitive Type)       | 2. 참조형(Reference Type) |
+| 1) 기본형 (Primitive Type)       | 2) 참조형(Reference Type) |
 | :------------------------------- | :------------------------ |
 | ① 논리형: boolean                | 기본형을 제외한 모든 타입 |
 | ② 문자형: char                   |                           |
@@ -33,7 +31,7 @@
 
   - i 라는 4바이트 크기의 정수형 변수에 숫자 4를 저장
 
-    <img src="https://user-images.githubusercontent.com/14012780/67932671-aa153d00-fc07-11e9-845e-89169da2071f.png" alt="image-20191031173720101" style="zoom:80%;" />
+    <img src="C:\Users\SOO\AppData\Roaming\Typora\typora-user-images\image-20191031173720101.png" alt="image-20191031173720101" style="zoom:80%;" />
 
 - 참조형은 클래스다. 기본형 타입을 제외한 모든 타입이다.
 
@@ -45,7 +43,7 @@
   - new 연산자로 클래스를 메모리에 올려 둠 (이때 올라간 클래스를 인스턴스라 함)
   - str은 메모리에 올라간 인스턴스를 가리키는 변수, 참조하는 변수, Reference하는 변수이다.
 
-  <img src="https://user-images.githubusercontent.com/14012780/67932466-50147780-fc07-11e9-8627-7f4a89f4b0a8.png" alt="image-20191031174515443" style="zoom:90%;" />
+  <img src="C:\Users\SOO\AppData\Roaming\Typora\typora-user-images\image-20191031174515443.png" alt="image-20191031174515443" style="zoom:90%;" />
 
   - 즉, str == Hello 이 아니라 참조만 하는 것이다.
   - str 변수에는 메모리의 위치 값만 저장 됨.
