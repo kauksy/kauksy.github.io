@@ -45,7 +45,7 @@
   - new 연산자로 클래스를 메모리에 올려 둠 (이때 올라간 클래스를 인스턴스라 함)
   - str은 메모리에 올라간 인스턴스를 가리키는 변수, 참조하는 변수, Reference하는 변수이다.
 
-  <img src="C:\Users\SOO\AppData\Roaming\Typora\typora-user-images\image-20191031174515443.png" alt="image-20191031174515443" style="zoom:90%;" />
+  <img src="https://user-images.githubusercontent.com/14012780/67932466-50147780-fc07-11e9-8627-7f4a89f4b0a8.png" alt="image-20191031174515443" style="zoom:90%;" />
 
   - 즉, str == Hello 이 아니라 참조만 하는 것이다.
   - str 변수에는 메모리의 위치 값만 저장 됨.
