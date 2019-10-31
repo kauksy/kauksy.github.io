@@ -17,7 +17,7 @@
 - 클래스 : 클래스는 객체를 만들기 위한 일종의 틀 ( 예: 객체 = 붕어빵, 클래스 = 붕어빵틀 )
 
 ```java
-public class 클래스명 {
+public class ClassName {
    ...
 }
 ```
