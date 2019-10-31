@@ -35,7 +35,7 @@ public class ClassName {
 #### 2.  Car객체 생성하기
 
 ``` java
-publuc class CarExam{
+public class CarExam{
     public static void main(String[] args){
         Car car1 = new Car();	// 객체생성 시, 항상 new 연산자를 사용
         Car car2 = new Car(); 	// car2에 Car객체를 생성하여 넣어줌
@@ -65,8 +65,6 @@ publuc class CarExam{
 
     c1, c2 는 메모리에 올라 간 인스턴스를 가리키는 변수, 참조하는 변수, Reference 하는 변수다.
 
-    </br>
 
-    </br>
 
 > 제가 현재 참고하고 있는 이론적 내용과 소스코드는 모두 [프로그래머스]( https://programmers.co.kr/learn ) 사이트의 자바입문/중급 강의를 듣고 정리하는 내용입니다. 
