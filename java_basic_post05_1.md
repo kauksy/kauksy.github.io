@@ -1,15 +1,16 @@
 > 제가 현재 작성하고 있는 내용은 모두 [프로그래머스]( https://programmers.co.kr/learn ) 사이트의 자바입문/중급 강의를 직접 듣고 정리한 내용입니다.
 
 
+
 ## 클래스와 객체
 
 ### 클래스 선언
 
 - 객체지향 언어 자바
 
-: 프로그램을 구성하는 요소는 객체 → 객체가 상호작용하도록 프로그래밍 하는 것
+  : 프로그램을 구성하는 요소는 객체 → 객체가 상호작용하도록 프로그래밍 하는 것
 
-: 하나의 사물을 하나의 클래스로 설명
+  : 하나의 사물을 하나의 클래스로 설명
 
 - 자바에서는 객체를 만들기 위해, 반드시 클래스를 먼저 만들어야 한다.
 
@@ -20,7 +21,7 @@
 - 클래스 : 클래스는 객체를 만들기 위한 일종의 틀 ( 예: 객체 = 붕어빵, 클래스 = 붕어빵틀 )
 
 ```java
-public class ClassName {
+public class 클래스명 {
    ...
 }
 ```
@@ -42,7 +43,7 @@ public class ClassName {
 #### 2.  Car객체 생성하기
 
 ``` java
-public class CarExam{
+publuc class CarExam{
     public static void main(String[] args){
         Car car1 = new Car();	// 객체생성 시, 항상 new 연산자를 사용
         Car car2 = new Car(); 	// car2에 Car객체를 생성하여 넣어줌
