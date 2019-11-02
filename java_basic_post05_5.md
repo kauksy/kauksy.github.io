@@ -54,7 +54,7 @@ public class MyClassExam{
 
   ```
   method1 의 실행
-  3과 4를 이용하는 method2
+  3와 4를 이용하는 method2
   10
   ```
 
