@@ -61,3 +61,5 @@ gender2 = Gender.FEMALE;
 
 - enum Gender에 MALE과 FEMALE만 기재해 두었다. 따라서, Gender 타입의 변수에는 MALE이나 FEMALE만 대입이 가능하다. 다른 값은 저장 할 수가 없다.
 
+- enum 자체가 타입이 된다. Gender를 그냥 가져다 쓰면 된다.
+
