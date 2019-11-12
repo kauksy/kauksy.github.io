@@ -64,7 +64,7 @@ public class DuckExam{
 	public static void main(String[] args){
         Duck duck = new Duck();
         duck.sing();	// '날다' 출력
-        duck.fly();		// '꽥꽥' 출력
+        duck.fly();	// '꽥꽥' 출력
     }
 }
 ```
