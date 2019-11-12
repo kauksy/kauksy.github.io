@@ -1,0 +1,90 @@
+> 제가 현재 작성하고 있는 내용은  [프로그래머스]( https://programmers.co.kr/learn ) 사이트의 자바입문/중급 강의를 직접 듣고 정리한 내용입니다.
+
+
+
+## 상속
+
+### 부모생성자와 Super
+
+- class가 인스턴스화 될 때, 생성자가 실행 되면서 객체가 초기화 된다.
+
+- 이 때, 자신의 생성자만 실행되는 것이 아니라 부모의 생상자 부터 실행된다.
+
+  ​    
+
+#### 1. 부모생성자
+
+```java
+public class Car{
+	public Car(){
+        System.out.println("Car의 기본 생성자");
+    }
+}
+```
+
+```java
+public class Track extends Car{
+    // super();
+    System.out.println("Track의 기본 생성자");
+}
+```
+
+```java
+public class TruckExam{
+    public static void main(String[] args){
+        Track track = new Track();
+    }
+}
+```
+
+- 수행결과
+
+  Car의 기본 생성자
+
+  Track의 기본 생성자
+
+- Track 생성자가 호출 됐을 때, 컴파일러가 자동으로 super();를 호출한다. 
+
+- 실제로 주석을 풀어 super();를 실행하여도 결과는 동일하다.
+
+- new 연산자로 Track 객체를 생성하면, Track 객체가 메모리에 올라갈 때, 부모인 Car도 함께 메모리에 올라간다.
+
+  - 생성자는 객체를 초기화하는 일을 한다.
+
+  - 생성자가 초기화 될 때, 자동으로 부모의 생성자가 호출 되면서 부모객체를 초기화하게 된다.
+
+    → 내가(자식이) 태어나기 전, 부모가 먼저 태어나야 한다.
+
+    
+
+#### 2. Super
+
+- 부모 객체를 나타내는 키워드 
+  - cf. 자신을 가리키는 키워드는 this
+- super(); 라고 기재하면, 부모의 기본생성자가 호출 된다
+- super 키워드는 자식에서 부모의 메소드나, 필드를 사용 할 때도 쓰인다.
+- 부모의 생성자를 임의로 호출하지 않으면, 부모 클래스의 기본 생성자가 자동으로 호출 된다.
+
+```java
+public class Car{
+    public Car(String name){
+        System.our.println("car의 " + name + "을 받는 생성자");
+    }
+}
+```
+
+```java
+public class Track{
+    public Track(){
+        super("소방차");
+        System.out.println("Truck의 기본 생성자");
+    }
+}
+```
+
+- 앞서 만들었던 Car 클래스를 위와 같이 바꾼다.
+-  Track 클래스에 <u>super("소방차");</u> 코드를 넣지 않으면, Truck 생성자에 컴파일 오류가 발생한다.
+- 컴파일러는 기본 생성자만 자동으로 만들어 주기 때문이다.
+- Car 생성자가  <u>public Car(String name)</u>으로 되어 있기에, 컴파일 오류가 발생하는 것이다.
+- 이 문제를 해결하려면, 자식 클래스의 생성자에서 직접! 부모의 생성자를 호출 해야한다.
+  - 그래서 <u>super("소방차");</u> 코드를추가 한 것이다.
