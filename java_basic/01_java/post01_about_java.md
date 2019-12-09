@@ -35,11 +35,7 @@
 
     1.  <u>[소스작성]</u>   C:\temp 에 메모장으로 HelloWorld.java 파일을 작성(내 컴퓨터상 경로는 C:\Windows\temp)
 
-    2.  <u>[컴파일]</u>  cmd 창 열기 →  cd HelloWorld.java 저장 위치 (HelloWorld.java 파일을 저장한 곳으로 이동)
-
-       → cmd 창에 'javac HelloWorld.java' 입력 후 엔터 (javac: 컴파일하는 명령어)
-
-       → 1~3 까지 수행하면 HelloWorld.class 파일이 만들어 진다.
+    2.  <u>[컴파일]</u>  cmd 창 열기 →  cd HelloWorld.java 저장 위치 (HelloWorld.java 파일을 저장한 곳으로 이동) → cmd 창에 'javac HelloWorld.java' 입력 후 엔터 (javac: 컴파일하는 명령어) → 1~3 까지 수행하면 HelloWorld.class 파일이 만들어 진다.
 
     3. <u>[실행]</u>  java HelloWorld 라고 cmd 창에 입력 후 엔터 > cmd 창에 HelloWorld.java 에 작성했던 소스코드가 실행 됨을 확인 할 수 있다.
 
@@ -60,7 +56,7 @@
     // 행당위 주석
     
     /* 블럭단위 
-    		주석 
+    	 주석 
     */
     ```
 
